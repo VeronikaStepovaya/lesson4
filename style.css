@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+}
+table {
+    border: black;
+    border-collapse: collapse;
+}
+td {
+    background-color: white;
+    font-size: 40px;
+}
+.row1 td:hover {
+    border: 1px solid rgb(206, 206, 206);
+    width: 300px;
+    height: 300px;
+    transition: 0.7s;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 0 15px rgba( 0, 0, 0, 5);
+}
+.row1 {
+    width: 200px;
+    height: 200px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
